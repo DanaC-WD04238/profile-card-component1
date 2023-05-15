@@ -1,0 +1,169 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2 {
+    font-size: 100px;
+    color: hsl(0, 0%, 100%);
+}
+h4 {
+    font-size: 26px;
+    color: hsl(224, 30%, 27%);
+    font-weight: bolder;
+    display: flex;
+    justify-content: right;
+    position: relative;
+    left: 100px;
+}
+p {
+    font-size: 18px;
+    color: hsl(241, 100%, 89%);
+    font-weight: bolder;
+}
+.card{
+    display: flex;
+    font-family: 'Hanken Grotesk';
+    margin: 300px auto 150px auto;
+    width: 1000px;
+    height: 600px;
+    border-radius: 35px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px hsl(240, 19%, 70%);   
+}
+.card-result {
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 35px;
+    width: 500px;
+}
+.card-result-title {
+    padding: 60px 0px 0px 0px;
+    font-size: 30px;
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+}
+.card-result-numbers {
+    padding: 20px;
+    text-align: center;
+    border-radius: 150px;
+    border: 1px solid hsl(252, 100%, 67%);
+    background: linear-gradient(to bottom, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 130px;
+    top: 50px;
+}
+.card-result-congrat {
+    font-size: 40px;
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    left: 200px;
+    top: 80px;
+}
+.card-result-explanation {
+    font-size: 18px;
+    color:  hsl(241, 100%, 89%);
+    text-align: center;
+    position: relative;
+    top: 100px;  
+}
+.card-summary {
+    border-radius: 35px 35px 35px 35px;
+    background-color: hsl(0, 0%, 100%);
+    width: 500px;    
+}
+.card-summary-title {
+    padding: 60px 30px 0px 30px;
+    font-size: 30px;
+    color: hsl(224, 30%, 27%);
+}
+.card-color-red {
+    padding: 20px 20px 10px 20px;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: hsla(0, 100%, 67%, .2);
+    width: 450px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;   
+}
+p.card-sumary-reactie {
+    font-size: 24px;
+    font-weight: bolder;
+    color: hsl(0, 100%, 67%);    
+}
+.grey {
+    font-size: 24px;
+   color: hsl(240, 8%, 59%);
+}
+.card-color-yellow {
+    padding: 20px 20px 10px 20px;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: hsla(39, 100%, 56%, .2);
+    width: 450px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+p.card-summary-memorie {
+    font-size: 24px;
+    font-weight: bolder;
+    color: hsl(39, 100%, 56%);
+    width: 117px;
+}
+.card-color-green {
+    padding: 20px 20px 10px 20px;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: hsla(166, 24%, 72%, .2);
+    width: 450px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+p.card-summary-verbal {
+    font-size: 24px;
+    font-weight: bolder;
+    color: hsl(166, 100%, 37%);
+    width: 117px;
+}
+.card-color-blue {
+    padding: 20px 20px 10px 20px;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: hsla(234, 31%, 76%, .2);
+    width: 450px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+p.card-summary-vizual {
+    font-size: 24px;
+    font-weight: bolder;
+    color: hsl(234, 85%, 45%);
+    width: 117px;
+}
+.continue {
+    font-family: 'Hanken Grotesk';
+    font-size: 20px;
+    font-weight: bolder;
+    background-color:  hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    width: 300px;
+    height: 60px;
+    padding: 20px;
+    margin: 45px 20px 20px 20px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 70px;
+    bottom: 10px;  
+}
+.continue:hover {
+    background-image: linear-gradient(to top, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    cursor: pointer;
+}
