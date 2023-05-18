@@ -10,7 +10,7 @@ p{
     font-size: 18px;
     font-weight: 400;
     color: hsl(236, 100%, 87%);
-    margin: 18px;
+    padding: 10px;
 }
 h1 {       
     font-size: 40px;
@@ -71,21 +71,20 @@ a {
     justify-content: space-around;
     flex-flow: row wrap;
 }
-.card-results-work-header, .card-results-play-header, .card-results-study-header, .card-results-exercise-header, .card-results-social-header, .card-results-self-header {
+.card-results-header {
     width: 200px;
-    height: 25px;
-    border-radius: 10px 10px 0px 0px;     
+    height: 45px;
+    overflow: hidden;
 }
-.card-icon1, .card-icon2, .card-icon3, .card-icon4, .card-icon5, .card-icon6 {
-    width: 20%; 
-    height: 160%;  
+.card-icon {
+    overflow: hidden;
     position: relative;
-    left: 145px;
-    top: 3px;   
+    left: 135px;
+    bottom: 5px;
 }
-.card-results-work, .card-results-play, .card-results-study, .card-results-exercise, .card-results-social, .card-results-self {
+.card-result {
     width: 200px;
-    height: 175px;
+    height: 170px;
     background-color: hsl(235, 46%, 20%);
     border-radius: 10px;    
 }
@@ -110,8 +109,7 @@ a {
     background-color: hsl(264, 64%, 52%);    
 }
 .card-results6 {      
-    background-color: hsl(43, 84%, 65%);
-     
+    background-color: hsl(43, 84%, 65%);     
 }
 .card-work, .card-play, .card-study, .card-exercise, .card-social, .card-self {     
     font-weight: 500;
