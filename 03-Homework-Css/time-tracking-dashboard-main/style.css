@@ -3,22 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
-p{
+body {
     font-family: "Rubik";
+}
+p{   
     font-size: 18px;
     font-weight: 400;
     color: hsl(236, 100%, 87%);
     margin: 18px;
 }
-h1 {
-    font-family: "Rubik";    
+h1 {       
     font-size: 40px;
     font-weight: 400;
     color: white;
     margin: 15px;
 }
 h2 {
-    font-family: "Rubik";
     font-size: 30px;
     font-weight: 500;
     color: white;
@@ -31,8 +31,7 @@ a {
     flex-direction: column;
     justify-content: space-between; 
 }
-.card {
-    font-family: "Rubik";
+.card {   
     background-color: hsl(226, 43%, 10%);
     margin: 20px;
     display: flex;
@@ -43,7 +42,7 @@ a {
     height: 460px;
     margin: 50px 10px 50px 40px;
     background-color: hsl(235, 46%, 20%);
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
 }
@@ -64,8 +63,7 @@ a {
     width: 250px;
     height: 100px;   
 }
-.card-results {
-    font-family: "Rubik";
+.card-results {   
     max-width: 680px;
     max-height: 480px;
     margin-top: 50px;
@@ -75,61 +73,47 @@ a {
 }
 .card-results-work-header, .card-results-play-header, .card-results-study-header, .card-results-exercise-header, .card-results-social-header, .card-results-self-header {
     width: 200px;
-    height: 23px;
-    border-radius: 10px 10px 0px 0px;   
+    height: 25px;
+    border-radius: 10px 10px 0px 0px;     
 }
 .card-icon1, .card-icon2, .card-icon3, .card-icon4, .card-icon5, .card-icon6 {
-    width: 70px;
-    height: 34px;
+    width: 20%; 
+    height: 160%;  
     position: relative;
-    left: 115px;
-    top: 5px;
+    left: 145px;
+    top: 3px;   
 }
 .card-results-work, .card-results-play, .card-results-study, .card-results-exercise, .card-results-social, .card-results-self {
-    font-family: "Rubik";
     width: 200px;
     height: 175px;
     background-color: hsl(235, 46%, 20%);
-    border-radius: 10px 10px 10px 10px;       
-}
-.card-results1 {
-    width: 200px;
-    height: 200px;    
-    background-color: hsl(15, 100%, 70%);
-    border-radius: 10px;  
-}
-.card-results2 {
-    width: 200px;
-    height: 200px;
-    background-color: hsl(195, 74%, 62%);
-    border-radius: 10px;
-}
-.card-results3 {
-    width: 200px;
-    height: 200px;
-    background-color: hsl(348, 100%, 68%);
-    border-radius: 10px;
-}
-.card-results4 {
-    width: 200px;
-    height: 200px;  
-    background-color: hsl(145, 58%, 55%);
-    border-radius: 10px;
-}
-.card-results5 {
-    width: 200px;
-    height: 200px;   
-    background-color: hsl(264, 64%, 52%);
-    border-radius: 10px;
-}
-.card-results6 {
-    width: 200px;
-    height: 200px;
-    background-color: hsl(43, 84%, 65%);
     border-radius: 10px;    
 }
-.card-work, .card-play, .card-study, .card-exercise, .card-social, .card-self {  
-    font-family: "Rubik";
+.card-body {
+    width: 200px;
+    height: 200px;   
+    border-radius: 10px;  
+}
+.card-results1 {    
+    background-color: hsl(15, 100%, 70%);    
+}
+.card-results2 {   
+    background-color: hsl(195, 74%, 62%); 
+}
+.card-results3 {    
+    background-color: hsl(348, 100%, 68%);   
+}
+.card-results4 {   
+    background-color: hsl(145, 58%, 55%);   
+}
+.card-results5 {   
+    background-color: hsl(264, 64%, 52%);    
+}
+.card-results6 {      
+    background-color: hsl(43, 84%, 65%);
+     
+}
+.card-work, .card-play, .card-study, .card-exercise, .card-social, .card-self {     
     font-weight: 500;
     color: white;
     margin-left: 15px;
