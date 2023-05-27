@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Rubik";
+}
+p{   
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(236, 100%, 87%);
+    padding: 10px;
+}
+h1 {       
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    margin: 15px;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    margin-left: 15px;   
+}
+a {
+    color: hsl(236, 100%, 87%);
+    text-decoration: none;   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+.card {   
+    background-color: hsl(226, 43%, 10%);
+    margin: 20px;
+    display: flex;
+    justify-content: center;    
+}
+.card-report {
+    width: 250px;
+    height: 460px;
+    margin: 50px 10px 50px 40px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.card-header {
+    width: 250px;
+    height: 320px;
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 10px;
+}
+.card-user-photo {
+    width: 110px;
+    height: 110px;
+    margin: 20px;
+    border-radius: 100px;
+    border: 3px solid white;    
+}
+.card-description {
+    width: 250px;
+    height: 100px;   
+}
+.card-results {   
+    max-width: 680px;
+    max-height: 480px;
+    margin-top: 50px;
+    display: flex;     
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+.card-results-header {
+    width: 200px;
+    height: 45px;
+    overflow: hidden;
+}
+.card-icon {
+    overflow: hidden;
+    position: relative;
+    left: 135px;
+    bottom: 5px;
+}
+.card-result {
+    width: 200px;
+    height: 170px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;    
+}
+.card-body {
+    width: 200px;
+    height: 200px;   
+    border-radius: 10px;  
+}
+.card-results1 {    
+    background-color: hsl(15, 100%, 70%);    
+}
+.card-results2 {   
+    background-color: hsl(195, 74%, 62%); 
+}
+.card-results3 {    
+    background-color: hsl(348, 100%, 68%);   
+}
+.card-results4 {   
+    background-color: hsl(145, 58%, 55%);   
+}
+.card-results5 {   
+    background-color: hsl(264, 64%, 52%);    
+}
+.card-results6 {      
+    background-color: hsl(43, 84%, 65%);     
+}
+.card-work, .card-play, .card-study, .card-exercise, .card-social, .card-self {     
+    font-weight: 500;
+    color: white;
+    margin-left: 15px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;    
+}
+a:hover, a:active {
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+}
